@@ -320,6 +320,7 @@
         max-height: 100vh;
         padding: 15px 15px;
         padding-bottom: 40px;
+        border-top: 1px solid rgba(155, 163, 175, 0.25);
         display: none;
         overflow: auto;
         color: #1C1E20;
@@ -399,6 +400,13 @@
     }
     .slider-cards .item-card:active {
         box-shadow: none;
+    }
+    .header__contacts {
+        justify-content: space-between;
+        max-width: 340px;
+    }
+    .item-contact {
+        margin-right: 0;
     }
 }
 
