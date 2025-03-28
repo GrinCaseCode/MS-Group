@@ -758,7 +758,7 @@ form {
 	font-weight: 700;
 }
 .slider-cards .slick-track {
-	display: flex !important;
+	display: flex !important; 
 }
 .slider-cards .slick-slide {
 	padding: 45px 15px;
