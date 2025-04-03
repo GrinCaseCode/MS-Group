@@ -537,6 +537,9 @@
     .modal-wrap {
         padding: 25px 20px;
     }
+    .page-article .title-section {
+        font-size: 32px;
+    }
 }
 
 /* Small Devices, Tablets */
