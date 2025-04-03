@@ -544,6 +544,12 @@
         margin-top: -90px;
         margin-bottom: 56px;
     }
+    .slider-reviews .slick-slide {
+        padding: 75px 20px; 
+    }
+    .slider-reviews .slick-list {
+        margin: -75px -20px;
+    }
 }
 
 /* Small Devices, Tablets */
