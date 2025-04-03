@@ -17,8 +17,8 @@
 	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
 </head>
 <body>
 
@@ -53,7 +53,7 @@
 						</div>
 						<div class="item-contact">
 							<div class="item-contact__value"><a href="tel:+79994654433">+7 (999) 465-44-33</a></div>
-							<div class="item-contact__descr"><a href="#">Заказать звонок</a></div>
+							<div class="item-contact__descr"><a href="#modal-callback" class="fancybox">Заказать звонок</a></div>
 						</div>
 					</div>
 					<a href="#" class="phone-mob"><i class="far fa-phone-alt"></i></a>
@@ -88,7 +88,7 @@
 					</div>
 					<div class="item-contact">
 						<div class="item-contact__value"><a href="tel:+79994654433">+7 (999) 465-44-33</a></div>
-						<div class="item-contact__descr"><a href="#">Заказать звонок</a></div>
+						<div class="item-contact__descr"><a href="#modal-callback" class="fancybox">Заказать звонок</a></div>
 					</div>
 				</div>
 			</div>
@@ -394,10 +394,10 @@
 						<div class="text-main hidden-mob">
 							<p>В компании MS Group жителям города Сочи доступно остекление в Сочи по цене от 30000 рублей. Каждый может разработать проект бесплатно. Это экономия и разработка с учетом Ваших пожеланий, деталей и особенностей. В компании доступно:</p>
 							<ol>
-								<li>Алюминиевые окна</li>
-								<li>Солнечная защита</li>
-								<li>Маркизы и перголы</li>
-								<li>Окна ПВХ и многое другое</li>
+								<li><strong>Алюминиевые окна</strong></li>
+								<li><strong>Солнечная защита</strong></li>
+								<li><strong>Маркизы и перголы</strong></li>
+								<li><strong>Окна ПВХ и многое другое</strong></li>
 							</ol>
 							<p>Квалифицированная команда специалистов разработала уже множество проектов и имеют суммарный стаж более 70 лет. На всю работу предоставляется гарантия, есть возможность работы удаленно. Это дает возможность получить услуги из любой точки РФ. Благодаря собственному производству удается сэкономить и предложить остекление в Сочи по стоимости, ниже рыночной.</p>
 							<h2>Система остекления</h2>
@@ -466,6 +466,29 @@
 		
 	</div>
 
+	<div id="modal-callback" class="modal-block">
+		<div class="modal-wrap">
+			<h2 class="title-block">Закажите звонок, <br>и мы вам перезвоним</h2>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Ваше имя" required>
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Ваш телефон" class="input-phone" required>
+				</div>
+				<button class="btn-main">Заказать звонок</button>
+				<div class="agree-form">Нажимая на кнопку «Отправить», вы соглашаетесь на обработку персональных данных</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-thanks" class="modal-block">
+		<div class="modal-wrap">
+			<h2 class="title-block">Заявка отправлена</h2>
+			<div class="descr-thanks">Мы скоро свяжемся с вами!</div>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -478,7 +501,7 @@
 	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.1"></script>
+	<script src="js/common.js?ver=1.3"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

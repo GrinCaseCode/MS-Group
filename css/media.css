@@ -16,8 +16,11 @@
     .consultation {
         padding: 56px 75px;
     }
+    .title-middle {
+        font-size: 22px;
+    }
 }
-/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */ 
 @media only screen and (max-width : 1200px) {
     .container {
         max-width: 100%;
@@ -106,6 +109,31 @@
     }
     .title-section.title-section_main {
         margin-bottom: 40px;
+    }
+    .breadcrumbs_page {
+        padding-bottom: 30px;
+    }
+    .image-review img {
+        max-width: 338px;
+        box-shadow: 0 8px 92px 0 rgba(0, 0, 0, 0.12);
+        margin-bottom: 31px;
+    }
+    .reviews {
+        padding-bottom: 135px;
+    }
+    .unit-contacts {
+        padding: 20px 15px;
+    }
+    .contacts-block {
+        width: 365px;
+        padding: 22px;
+    }
+    .title-block {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .list-map__title {
+        font-size: 18px;
     }
 }
 
@@ -357,6 +385,9 @@
         padding-top: 24px;
         font-size: 14px;
     }
+    .breadcrumbs_page {
+        padding-bottom: 24px;
+    }
     .title-section.title-section_main { 
         margin-bottom: 32px;
     }
@@ -408,6 +439,104 @@
     .item-contact {
         margin-right: 0;
     }
+    .item-question__head {
+        padding: 20px 0;
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .item-question__content {
+        padding-bottom: 20px;
+    }
+    .page-questions .title-section.title-section_main {
+        margin-bottom: 18px;
+    }
+    .page-catalog {
+        padding-bottom: 40px;
+    }
+    .item-portfolio__image {
+        height: 343px;
+        margin-bottom: 32px;
+    }
+    .item-portfolio .title-middle {
+        font-size: 24px;
+    }
+    .item-portfolio__text {
+        font-size: 18px;
+    }
+    .portfolio {
+        padding-bottom: 56px;
+    }
+    .item-etap {
+        gap: 16px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .image-review img {
+        max-width: 100%;
+        height: auto;
+    }
+    .unit-contacts {
+        padding: 0;
+    }
+    .unit-contacts__title {
+        font-size: 14px;
+    }
+    .unit-contacts__value {
+        font-size: 16px;
+    }
+    .page-contacts .row.row_main > div {
+        margin-bottom: 24px;
+    }
+    .page-contacts .row.row_main {
+        margin-bottom: -24px;
+    }
+    .unit-contacts__icon {
+        margin-bottom: 16px;
+    }
+    .map-wrap {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #map {
+        order: -1;
+    }
+    .contacts-block {
+        padding: 24px;
+        margin-top: -180px;
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 100%;
+    }
+    .page-contacts {
+        padding-bottom: 56px;
+    }
+    .ymaps-2-1-79-balloon_to_top {
+        left: -38px !important;
+    }
+    .item-photo {
+        margin: 24px 0;
+    }
+    .page-about .title-section.title-section_main {
+        margin-bottom: 24px;
+    }
+    .list-map {
+        columns: 2;
+    }
+    .list-map__item {
+        margin-bottom: 32px;
+    }
+    .list-map__item > br {
+        display: none;
+    }
+    .fancybox-slide--html {
+        padding: 15px;
+    }
+    .modal-wrap {
+        padding: 25px 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -421,8 +550,13 @@
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+@media only screen and (max-width : 365px) {
+    .list-map__title {
+        font-size: 16px;
+    }
+    .list-map__item {
+        font-size: 14px;
+    }
 }
 
 
@@ -463,6 +597,15 @@
 @media (min-width: 1366px) {
 
 }
+@media (min-width: 1700px) {
+    .billbord {
+        padding-top: 250px;
+        min-height: 790px;
+    }
+    .billbord__image {
+        width: 72%;
+    }
+}
 
 @media (hover: hover) {
     .menu ul li a:hover,
@@ -497,6 +640,13 @@
     }
     .page-numbers:hover {
         border-color: #1C1E20;
+    }
+    .unit-contacts:hover {
+        box-shadow: 0 8px 112px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
+    }
+    .list-map ul li a:hover {
+        border-color: #3F87F5;
     }
 }
 
@@ -533,5 +683,12 @@
     }
     .page-numbers:active {
         border-color: #1C1E20;
+    }
+    .unit-contacts:active {
+        box-shadow: 0 8px 112px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
+    }
+    .list-map ul li a:active {
+        border-color: #3F87F5;
     }
 }

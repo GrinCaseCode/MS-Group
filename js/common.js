@@ -92,7 +92,32 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			]
 		});
 
+		$('.slider-reviews').slick({
+			arrows: true,
+			dots: true,
+			infinite: true,
+			touchThreshold: 1000,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
+
+	$("#modal-callback .btn-main").click(function(e) {
+		e.preventDefault();
+
+		$.fancybox.close();
+
+		$.fancybox.open({
+			src  : '#modal-thanks',
+			type: 'inline',
+			touch: false
+		  });
+	});
+
+
 
 
 	 // стайлер для select
