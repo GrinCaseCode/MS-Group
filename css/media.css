@@ -540,6 +540,10 @@
     .page-article .title-section {
         font-size: 32px;
     }
+    .reviews + .about .consultation {
+        margin-top: -90px;
+        margin-bottom: 56px;
+    }
 }
 
 /* Small Devices, Tablets */
